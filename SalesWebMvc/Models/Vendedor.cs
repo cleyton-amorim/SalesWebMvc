@@ -19,6 +19,8 @@ namespace SalesWebMvc.Models
 
         public Departamento Depart { get; set; }
 
+        public int DepartamentoId { get; set; }
+
         public ICollection<RegistroVendas> Registrovenda { get; set; } = new List<RegistroVendas>();
 
 
